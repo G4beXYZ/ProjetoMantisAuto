@@ -1,7 +1,7 @@
 # ProjetoMantisAuto
 Projeto com 30 testes automatizados que visam testar funcionalidades no site MantisBT
 
-<h1> Como Utilizar? </h1>
+<h1> Configurações Iniciais </h1>
 <h3>Instalando os Requisitos (requirements.txt)</h3>
 
 ```python
@@ -14,7 +14,7 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  
- ## IMPORTANTE
+ ## IMPORTANTE (CONFIGURAÇÃO DO USUÁRIO)
  
    <h3> Algumas configurações precisam ser feitas no arquivo "utils.py" <br> Veja como configurar logo abaixo 🠓 </h3>
                                                                                                               
@@ -33,7 +33,7 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
    ```
    
    ### Resultado esperado:
-   <p>aqui seria como deve se preencher os campos</p>
+   <p>aqui seria como deve-se preencher os campos</p>
    
    ```python
     class UtilVars(object):
@@ -43,23 +43,40 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
         CARGO = 'meuCargoLegal'
 
    ```
+   
+   ### Sobre o USUARIO_COMPLETO:
+   <p>Para obter esse valor da forma correta,basta pegar o título que mostra na página principal</p>
+   
+   #### Exemplo:
+   <p><i>Esse nome é encontrado logo no canto superior esquerdo na página incial (Também conhecido como "Minha Visão")</i></p>
+  
+   <img src=https://user-images.githubusercontent.com/62225558/122469275-243c3600-cf93-11eb-8105-3efcb682f189.png>
+   
+   #### - ATENÇÃO: OS VALORES DAS VARIÁVEIS PRECISAM ESTAR ESCRITAS DO MESMO JEITO DOS TEXTOS ENCONTRADOS NO SITE -
+   
+   ## O que fazer após isso?
+   <p>Bom...Se você chegou até aqui colocando as variávies no lugar certo e do jeito certo então...<br>
+      Meus parabéns você concluiu a configuração tanto da sua conta do MantisBT quanto do "utils.py"
+  </p>
+  
+   <p style=font-size:30pt;>Agora basta ver como utilizar os comandos nos próximos tópicos!</p>
  
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  
-
+<h1> Como Utilizar? </h1>
 
 <h3>Utilizando o comando 'Behave'</h3>
-<p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python </p>
-<p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
-
+<p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python.<br> 
+  Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo
+</p>
 
 ```python
   >>> behave -i login.feature
 ```
-<p><i>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</i></p>
+<p><i>[o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida / um cenário específico]</i></p>
 
 <h5>🔵<i>Documentação completa disponível neste PDF oficial do Behave: https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf</i></h5>
 
