@@ -4,12 +4,13 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 <h1> Como Utilizar? </h1>
 <b>Utilizando o comando behave </b><br>
 <p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python criado</p>
-<p>Então para executar a feature necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
-<p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
+<p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
+
 
 ```python
   >>> behave -i login.feature
 ```
+<p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
 
 <b>Resultado</b><br>
 ```cmd
