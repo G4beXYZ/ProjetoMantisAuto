@@ -18,6 +18,8 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 ```
 <p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
 
+<h5>🔵<i>Documentação completa disponível neste PDF oficial do Behave: https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf</i></h5>
+
 <h3>Resultado</h3><br>
 
 ```cmd
