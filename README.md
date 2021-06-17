@@ -58,8 +58,8 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
    <p>Bom...Se você chegou até aqui colocando as variávies no lugar certo e do jeito certo então...<br>
       Meus parabéns você concluiu a configuração tanto da sua conta do MantisBT quanto do "utils.py"
   </p>
-  
-   <p style=font-size:30pt;>Agora basta ver como utilizar os comandos nos próximos tópicos!</p>
+   <h2 align="center">⭐⭐Sua etapa de configuração terminou!⭐⭐</h2>
+   <h2 align="center">⭐⭐Agora basta ver como utilizar os comandos nos próximos tópicos!⭐⭐</h2>
  
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
