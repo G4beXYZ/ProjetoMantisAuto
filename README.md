@@ -8,6 +8,49 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
   >>> pip install -r requirements.txt  
 ```
 
+  
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ 
+ ## IMPORTANTE
+ 
+   <h3> Algumas configurações precisam ser feitas no arquivo "utils.py" <br> Veja como configurar logo abaixo 🠓 </h3>
+                                                                                                              
+   <div><i>Aqui como vocês podem ver, as variáveis do script estão com valores "placeholder".Caso você possua uma conta no MantisBT
+   basta colocar o seus dados no lugar dos valores "placeholder"</i> </div>
+   
+   ### Exemplo:
+   
+   ```python
+    class UtilVars(object):
+        USUARIO = 'INSIRA_USUARIO_AQUI'
+        SENHA = 'INSIRA_SENHA_AQUI'
+        USUARIO_COMPLETO = 'NOME_PAGINA_PRINCIPAL'
+        CARGO = 'CARGO_AQUI'
+
+   ```
+   
+   ### Resultado esperado:
+   <p>aqui seria como deve se preencher os campos</p>
+   
+   ```python
+    class UtilVars(object):
+        USUARIO = 'meuUsuario'
+        SENHA = 'minhasenhaMantis123'
+        USUARIO_COMPLETO = 'meuUsuario ( Meu nome Completo )'
+        CARGO = 'meuCargoLegal'
+
+   ```
+ 
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+ 
+
+
 <h3>Utilizando o comando 'Behave'</h3>
 <p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python </p>
 <p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
@@ -16,7 +59,7 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 ```python
   >>> behave -i login.feature
 ```
-<p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
+<p><i>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</i></p>
 
 <h5>🔵<i>Documentação completa disponível neste PDF oficial do Behave: https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf</i></h5>
 
