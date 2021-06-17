@@ -6,7 +6,7 @@ class TaskPageElements(object):
     STATE_ELEMENT = '//*[@id="main-container"]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div/table/tbody/tr[7]/td[1]'
     STATUS_ELEMENT = '//*[@id="main-container"]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div/table/tfoot/tr/td/div/div[3]/form/select/option[1]'
     SOLVED_ELEMENT = '//*[@id="main-container"]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div/table/tfoot/tr/td/div/div[3]/form/select/option[5]'
-    APAGAR = '//*[@id="main-container"]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div/table/tfoot/tr/td/div/div[9]/form/fieldset/input[4]'
+    APAGAR = '#main-container > div.main-content > div.page-content > div > div:nth-child(1) > div > div.widget-body > div.widget-main.no-padding > div > table > tfoot > tr > td > div > div:nth-child(9) > form > fieldset > input.btn.btn-primary.btn-sm.btn-white.btn-round'
     CONFIRM_APAGAR = '//*[@id="action-group-div"]/form/div/div[2]/div[2]/input'
     BUTTON_ATUALIZAR = '//*[@id="main-container"]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div/table/tfoot/tr/td/div/div[3]/form/input[1]'
     BUTTON_CONFIRMAR_ATUALIZAR = '//*[@id="bug-change-status-form"]/fieldset/div/div[2]/div[2]/input'
@@ -48,7 +48,8 @@ class TaskPage(Browser):
         self.driver.find_element_by_id('tag_string').send_keys(Keys.RETURN)
     # Esta função  que seleciona a primeira tarefa e apaga ela
     def deletar(self):
-        self.driver.find_element_by_xpath(TaskPageElements.APAGAR).click()
+        button = self.driver.find_element_by_css_selector(TaskPageElements.APAGAR)
+        button.click()
         self.driver.find_element_by_xpath(TaskPageElements.CONFIRM_APAGAR).click()
         self.driver.execute_script("alert('TAREFA DELETADA COM SUCESSO!')")
         time.sleep(2)
