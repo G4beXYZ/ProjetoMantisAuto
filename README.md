@@ -2,6 +2,12 @@
 Projeto com 30 testes automatizados que visam testar funcionalidades no site MantisBT
 
 <h1> Como Utilizar? </h1>
+<h3>Instalando os Requisitos (requirements.txt)</h3>
+
+```python
+  >>> pip install -r requirements.txt  
+```
+
 <h3>Utilizando o comando 'Behave'</h3>
 <p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python </p>
 <p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
