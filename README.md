@@ -3,16 +3,16 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 
 <h1> Como Utilizar? </h1>
 <b>Utilizando o comando behave </b><br>
-<p></p>
+<p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python criado</p>
+<p>Então para executar a feature necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
+<p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
 
 ```python
-$>>> behave -i login.feature
+  >>> behave -i login.feature
 ```
 
 <b>Resultado</b><br>
 ```cmd
-DevTools listening on ws://127.0.0.1:50380/devtools/browser/f666c193-81e7-43b1-aa6e-a98675d8958d
-[30420:9816:0617/155333.971:ERROR:device_event_log_impl.cc(214)] [15:53:33.971] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
 Funcionalidade: login # features/login.feature:2
 
   @login
