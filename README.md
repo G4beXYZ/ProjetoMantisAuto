@@ -3,7 +3,7 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 
 <h1> Como Utilizar? </h1>
 <h3>Utilizando o comando 'Behave'</h3>
-<p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python criado</p>
+<p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python </p>
 <p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
 
 
