@@ -2,7 +2,7 @@
 Projeto com 30 testes automatizados que visam testar funcionalidades no site MantisBT
 
 <h1> Como Utilizar? </h1>
-<b>Utilizando o comando behave </b><br>
+<h3>Utilizando o comando 'Behave'</h3>
 <p>Basicamente o behave é o que vai interpretar os steps das features criadas com o código python criado</p>
 <p>Então para executar a feature, necessita-se apenas escrever no console o comando igual no exemplo abaixo</p>
 
@@ -12,7 +12,8 @@ Projeto com 30 testes automatizados que visam testar funcionalidades no site Man
 ```
 <p>o prefixo <b><i>' -i '</i></b> é para executar apenas a feature escolhida</p>
 
-<b>Resultado</b><br>
+<h3>Resultado</h3><br>
+
 ```cmd
 Funcionalidade: login # features/login.feature:2
 
